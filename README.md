@@ -196,6 +196,10 @@ Add the Service Provider to your `config/app.php`:
 
     php artisan vendor:publish --provider="PragmaRX\Health\ServiceProvider"
 
+## Run migrations
+
+    php artisan migration
+
 ## Hit The Health Panel
 
     http://yourdomain.com/health/panel
